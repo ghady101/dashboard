@@ -20,6 +20,7 @@ function Login() {
 	const { isAuthenticated } = useUser();
 
 	if (isAuthenticated) navigate('/dashboard', { replace: true });
+
 	return (
 		<LoginLayout>
 			<Logo />
