@@ -18,6 +18,7 @@ function Header() {
 		<StyledHeader>
 			<UserAvatar />
 			<HeaderMenu />
+			
 		</StyledHeader>
 	);
 }
